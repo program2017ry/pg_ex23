@@ -1,6 +1,4 @@
-package step11;
-
-import step12.MorningService;
+package step12;
 
 public class ServiceCollection implements Service {
 	private Service[] services = { new MorningService(), new DayService(), new NightService(), new FamilyService() };
